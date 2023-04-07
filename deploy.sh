@@ -10,7 +10,7 @@ sudo npm i -g pm2
 pm2 stop example_app
 
 # change directory into folder where application is downloaded
-cd DevOpsSecCA/
+cd TheHendrickHotel/
 
 # Install application dependancies
 npm install
@@ -19,4 +19,4 @@ npm install
 # echo $SERVER > server.crt
 
 # Start the application with the process name example_app using pm2
-pm2 start ./bin/www --name example_app
+pm2 start ./bin/www --name TheHendrickHotel
